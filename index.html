@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Helviley Lacerda - Poxrtfólio</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <link href="assets/img/favicon.ico" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+    <header id="header">
+      <div class="d-flex flex-column">
+        <div class="profile">
+          <img
+            src="assets/img/profile-img.jpg"
+            alt=""
+            class="img-fluid rounded-circle"
+          />
+          <h1 class="text-light"><a href="index.html">Helviley Lacerda</a></h1>
+          <div class="social-links mt-3 text-center">
+            <a href="https://github.com/lacerdahelviley" class="github"><i class="bx bxl-github"></i></a>
+            <a href="https://www.instagram.com/lacerda.hell/" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/helviley-lacerda-2253a2115/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </div>
+
+        <nav id="navbar" class="nav-menu navbar">
+          <ul>
+            <li>
+              <a href="#hero" class="nav-link scrollto active"
+                ><i class="bx bx-home"></i> <span>Home</span></a
+              >
+            </li>
+            <li>
+              <a href="#about" class="nav-link scrollto"
+                ><i class="bx bx-user"></i> <span>Sobre mim</span></a
+              >
+            </li>
+            <li>
+              <a href="#resume" class="nav-link scrollto"
+                ><i class="bx bx-file-blank"></i> <span>Experiências</span></a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="nav-link scrollto"
+                ><i class="bx bx-envelope"></i> <span>Contato</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section
+      id="hero"
+      class="d-flex flex-column justify-content-center align-items-center"
+    >
+      <div class="hero-container" data-aos="fade-in">
+        <h1>Helviley Lacerda</h1>
+        <p>
+          Sou
+          <span
+            class="typed"
+            data-typed-items="UX/UI Designer, Desenvolvedor Frontend, Freelancer"
+          ></span>
+        </p>
+      </div>
+    </section>
+
+    <main id="main">
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title">
+            <h2>Sobre mim</h2>
+            <p class="text-justify">
+              Olá! Sou um entusiasta da web com um profundo amor pela criação de
+              experiências digitais excepcionais. Com habilidades sólidas em
+              React, Vue e Bootstrap, estou comprometido em transformar
+              conceitos em interfaces envolventes e responsivas.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img src="assets/img/profile-img.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+              <h3>UI/UX Designer &amp; Desenvolvedor Web.</h3>
+              <p class="fst-italic">
+                Atuo com desenvolvimento de interfaces web modernas e
+                intuitivas, combinando o poder do React e Vue para criar
+                experiências dinâmicas e reativas. Utilização eficaz do
+                Bootstrap para criar layouts elegantes, otimizados para
+                dispositivos móveis, garantindo que os sites se destaquem em
+                qualquer tela. Colaboração com equipes multifuncionais para
+                transformar visões em produtos funcionais, mantendo um
+                compromisso inabalável com a usabilidade e o desempenho. Paixão
+                pela aprendizagem contínua e acompanhamento das tendências mais
+                recentes em tecnologias web para entregar soluções de ponta.
+              </p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Aniversário:</strong> <span>24 de abril</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Telefone:</strong> <span>31 99529-6713</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Cidade:</strong> <span>Contagem, MG</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Idade:</strong>
+                      <span id="idade"></span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Nível de conhecimento:</strong>
+                      <span>Junior/Pleno</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>E-mail:</strong>
+                      <span>helviley.melo@gmail.com</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <strong> Por que você deve me escolher: </strong>
+              <p class="text-justify">
+                Meu objetivo é tornar a web um lugar melhor, um site por vez.
+                Com um profundo compromisso com a excelência, estou ansioso para
+                trabalhar em desafios emocionantes e colaborar para criar
+                interfaces que impressionam e cativam os usuários. Se você está
+                procurando um desenvolvedor frontend apaixonado e habilidoso que
+                pode transformar suas ideias em realidade, entre em contato
+                comigo. Estou ansioso para colaborar em seu próximo projeto
+                incrível.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Habilidades</h2>
+            <p>Sobre minhas habilidades de desenvolvedor.</p>
+          </div>
+
+          <div class="row skills-content">
+            <div class="col-lg-6" data-aos="fade-up">
+              <div class="progress">
+                <span class="skill">HTML <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">CSS <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">JavaScript <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="progress">
+                <span class="skill">React <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Vue <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Bootstrap <i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="resume">
+        <div class="container">
+          <div class="section-title">
+            <h2>Experiências</h2>
+            <p>
+              Sou um desenvolvedor web frontend especializado em criar
+              experiências digitais excepcionais. Minhas principais habilidades
+              incluem o uso de React, Vue e Bootstrap para desenvolver
+              interfaces web modernas e responsivas. Tenho responsabilidades que
+              abrangem desde a criação de layouts elegantes até a colaboração
+              com equipes multifuncionais para transformar visões em produtos
+              funcionais.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6" data-aos="fade-up">
+              <h3 class="resume-title">Sumario</h3>
+              <div class="resume-item pb-0">
+                <h4>Helviley Lacerda</h4>
+                <p>
+                  <em
+                    >Desenvolvedor Web inovador e orientado a prazos, com mais
+                    de 1,5 ano de experiência no desenvolvimento de sites e
+                    commercios digitais centrados na experiência do usuário,
+                    desde o conceito inicial até a entrega final e polida.
+                    Iniciando também a carreira na área de Experiência do
+                    usuário (UX/UI Designer).</em
+                  >
+                </p>
+                <ul>
+                  <li>Contagem, MG</li>
+                  <li>(31) 99529-6713</li>
+                  <li>helviley.melo@gmail.com</li>
+                </ul>
+              </div>
+
+              <h3 class="resume-title">Education</h3>
+              <div class="resume-item">
+                <h4>Bacharel em Análise e Desenvolvimento de Sistemas</h4>
+                <h5>2022 - Até a data presente</h5>
+                <p><em>Faculdade Descomplica, Rio de Janeiro</em></p>
+                <p>
+                  Obtive minha formação em Análise e Desenvolvimento de Sistemas
+                  (ADS) pela Faculdade Descomplica. Durante esse período,
+                  adquiri um conhecimento sólido em programação, desenvolvimento
+                  de software e soluções tecnológicas. Aprendi a criar
+                  aplicações eficazes, resolver problemas complexos e me
+                  preparar para desafios na área de tecnologia. Minha formação
+                  na Faculdade Descomplica foi fundamental para minha carreira
+                  como desenvolvedor, proporcionando uma base sólida e a
+                  confiança necessária para enfrentar projetos inovadores.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <h4>Desenvolvimento Web</h4>
+                <h5>2022 - 2023</h5>
+                <p><em>Alura, São Paulo</em></p>
+                <ul>
+                  <li>HTTP: Entendendo a web por baixo dos panos</li>
+                  <li>CSS: Flexbox e layouts responsivos</li>
+                  <li>
+                    Modelagem de banco de dados relacional: modelagem lógica e
+                    física
+                  </li>
+                  <li>
+                    Modelagem de banco de dados: entidades, relacionamentos e
+                    atributos
+                  </li>
+                  <li>Formação Desenvolva aplicações Web com JavaScript</li>
+                  <li>JavaScript: manipulando o DOM</li>
+                  <li>JavaScript: objetos</li>
+                  <li>Lógica de programação: laços e listas com Javascript</li>
+                  <li>React com JavaScript: lidando com arquivos estáticos</li>
+                  <li>React com JavaScript: lidando com arquivos estáticos</li>
+                  <li>React: crie sua primeira página web</li>
+                  <li>React: desenvolvendo com JavaScript</li>
+                  <li>Formação Ouse com o Framework Vue.js 3</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="resume-item">
+                <h4>Analista de sistemas</h4>
+                <h5>2023 - Até data atual</h5>
+                <p><em>Belo Horizonte, MG</em></p>
+                <p>
+                  Desenvolvimento de plataforma para gerenciamento e
+                  acompanhamento de evolução de serviços prestados por
+                  fornecedores. Também com a finalidade de otimizar o processo
+                  de pagamento para eles.
+                </p>
+              </div>
+
+              <h3 class="resume-title">Experiência Profissional</h3>
+              <div class="resume-item">
+                <h4>Estagiário em desenvolvimento web</h4>
+                <h5>2022 - 2023</h5>
+                <p><em>Contagem, MG </em></p>
+                <p>
+                  Desenvolvimento de um E-commerce automotivo utilizando as
+                  tecnologias HTML, CSS, JavaScript, React.JS, Node.JS, banco de
+                  dados SQL
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Contato</h2>
+            <p>
+              Mais detalhes para entrar em contato comigo.
+            </p>
+          </div>
+
+          <div class="row" data-aos="fade-in">
+            <div class="col-lg-12 d-flex align-items-stretch">
+              <div class="info">
+
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>E-mail:</h4>
+                  <p>helviley.melo@gmail.com</p>
+                </div>
+
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Telefone:</h4>
+                  <p>31 99529-6713</p>
+                </div>
+      
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>2023</span></strong>
+        </div>
+        <div class="credits">
+          Desenvolvido por Helviley Lacerda
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/calculoDeIdade.js"></script>
+  </body>
+</html>
